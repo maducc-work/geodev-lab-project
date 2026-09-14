@@ -1,4 +1,4 @@
-**\#Project Brief**
+**My Project Brief**
 
  
 
@@ -8,19 +8,19 @@ Which wards in Owerri North are more than 5 km from a health facility?
 
  
 
-\#\#Why It Matters
+**Why It Matters**
 
 Access to healthcare depends partly on how close people are to health facilities. Identifying wards in Owerri North that are more than 5 km from a health facility can reveal areas where residents may face longer travel distances when seeking medical care. This information can support healthcare planning, facility placement, and better allocation of health resources.
 
  
 
-\#\#Data Needed
+**Data Needed**
 
 GRID3 health facilities, GRID3 ward boundaries, and OSM roads.
 
  
 
-\#\#Where Each Data Comes From
+**Where Each Data Comes From**
 
 \- Nigeria State boundaries
 
@@ -34,7 +34,7 @@ GRID3 health facilities, GRID3 ward boundaries, and OSM roads.
 
  
 
-\#\#Data Sources
+**Data Sources**
 
 Nigeria State boundaries — \[GRID3 NGA – Operational State Boundaries (December 2020)\](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/about)
 
@@ -47,8 +47,7 @@ Health facilities in the study area — \[GRID3 NGA – Health Facilities v2.0 (
 Roads for the study area — Extracted with the Quick OSM plugin from QGIS
 
  
-
-\#\#What I Will Build
+**What I Will Build**
 
 I will build an interactive web map of Owerri North LGA that identifies and highlights wards in Owerri North located more than 5 km from existing health facilities in red, showing the distance between health facilities, updated monthly to reflect when a road or facility is added.
 
