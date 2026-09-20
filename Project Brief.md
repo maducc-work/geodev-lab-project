@@ -1,53 +1,51 @@
-**My Project Brief**
+# My Project Brief
 
- 
+## Question
 
-**Question**
+**Which wards in Owerri North are more than 5 km from a health facility?**
 
-Which wards in Owerri North are more than 5 km from a health facility?
+## Why It Matters
 
- 
+Access to healthcare depends partly on how close people are to health facilities. Identifying wards in Owerri North that are more than 5 km from a health facility can reveal areas where residents may face longer travel distances when seeking medical care.
 
-**Why It Matters**
+This information can support healthcare planning, facility placement, and better allocation of health resources.
 
-Access to healthcare depends partly on how close people are to health facilities. Identifying wards in Owerri North that are more than 5 km from a health facility can reveal areas where residents may face longer travel distances when seeking medical care. This information can support healthcare planning, facility placement, and better allocation of health resources.
+## Data Needed
 
- 
+* GRID3 health facilities
+* GRID3 ward boundaries
+* OSM roads
 
-**Data Needed**
+## Data Sources
 
-GRID3 health facilities, GRID3 ward boundaries, and OSM roads.
+### Nigeria State Boundaries
 
- 
+[GRID3 NGA – Operational State Boundaries (December 2020)](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/about)
 
-**Where Each Data Comes From**
+### Nigeria LGA Boundaries
 
-\- Nigeria State boundaries
+[GRID3 NGA – Operational LGA Boundaries (December 2020)](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about)
 
-\- Nigeria LGA boundaries
+### Nigeria Ward Boundaries
 
-\- Nigeria ward boundaries
+[GRID3 NGA – Operational Wards v1.0 (December 2020)](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v1-0/about)
 
-\- Health facilities in the study area
+### Health Facilities
 
-\- Roads for study area
+[GRID3 NGA – Health Facilities v2.0 (November 2024)](https://data.grid3.org/datasets/GRID3::grid3-nga-health-facilities-v2-0/about)
 
- 
+### Roads
 
-**Data Sources**
+Road data for the study area will be extracted using the **QuickOSM plugin in QGIS**.
 
-Nigeria State boundaries — \[GRID3 NGA – Operational State Boundaries (December 2020)\](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-state-boundaries-/about)
+## What I Will Build
 
-Nigeria LGA boundaries — \[GRID3 NGA – Operational LGA Boundaries (December 2020)\](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about)
+I will build an interactive web map of **Owerri North LGA** that identifies and highlights wards located more than **5 km from existing health facilities**.
 
-Nigeria ward boundaries — \[GRID3 NGA – Operational Wards v1.0 (December 2020)\](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-wards-v1-0/about)
+The map will:
 
-Health facilities in the study area — \[GRID3 NGA – Health Facilities v2.0 (November 2024)\](https://data.grid3.org/datasets/GRID3::grid3-nga-health-facilities-v2-0/about)
- 
-Roads for the study area — Extracted with the Quick OSM plugin from QGIS
-
- 
-**What I Will Build**
-
-I will build an interactive web map of Owerri North LGA that identifies and highlights wards in Owerri North located more than 5 km from existing health facilities in red, showing the distance between health facilities, updated monthly to reflect when a road or facility is added.
-
+* Highlight wards that are more than 5 km from a health facility.
+* Show the locations of health facilities.
+* Use road data to support distance-based analysis.
+* Provide an interactive view of healthcare accessibility across Owerri North.
+* Be updated periodically as new roads or health facilities are added.
