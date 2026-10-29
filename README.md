@@ -11,3 +11,4 @@ See project brief for full details
 
 ## Month 2: Development environment and Early Python
 - Week 5: Set up python, vs code and the terminal. hello.py runs.
+- Week 6: Set up project with uv and added pandas. main.py prints, python version
