@@ -14,3 +14,4 @@ See project brief for full details
 - Week 6: Set up project with uv and added pandas. main.py prints, python version
 - Week 7: Analyse.py, reads wards.cv, covers each area and classify ward
 - Week 8: Inspect_data.py summarises rows and columns in my ward data.
+- Week 9: VS Code terminal after uv run summary.py, with one line per column and its count, smallest, largest and average.
